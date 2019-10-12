@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pinkbg3"
     tools:context=".Settings">
 
     <TextView
@@ -22,6 +23,7 @@
         android:id="@+id/seekBar"
         android:layout_width="138dp"
         android:layout_height="48dp"
+        android:scrollbarSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
@@ -33,7 +35,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Difficulty"
+        android:text="Happiness"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/seekBar"
@@ -47,7 +49,7 @@
         android:layout_width="298dp"
         android:layout_height="61dp"
         android:layout_marginTop="119dp"
-        android:text="Cute?"
+        android:text="Notifications"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

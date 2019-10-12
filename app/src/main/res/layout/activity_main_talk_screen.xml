@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pinkbg2"
     tools:context=".MainTalkScreen">
 
     <ImageView
@@ -18,6 +19,20 @@
         app:layout_constraintVertical_bias="0.259"
         app:srcCompat="@drawable/anime_boy"
         tools:srcCompat="@drawable/anime_boy" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="85dp"
+        android:layout_height="96dp"
+        android:contentDescription="Anime Boy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toEndOf="@+id/response_text"
+        app:layout_constraintTop_toBottomOf="@+id/settings"
+        app:layout_constraintVertical_bias="0.71"
+        app:srcCompat="@drawable/heart"
+        tools:srcCompat="@drawable/heart" />
 
     <EditText
         android:id="@+id/editText3"
@@ -73,8 +88,8 @@
         android:id="@+id/store"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:onClick="shop"
         android:text="Store"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
